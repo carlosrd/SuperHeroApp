@@ -3,6 +3,13 @@ Android App Example modularized with Kotlin + MVVM + Clean Architecture
 
 App loads a list of Marvel Characters using [Marvel API](https://developer.marvel.com/docs#!/public/getSeriesCollection_get_25).
 Users can navigate to Character Detail for displaying more information regarding selected Character like Comics, Series, Events, etc.
+<p>
+<img height="500" alt="Captura de pantalla 2021-10-19 a las 3 54 26" src="https://user-images.githubusercontent.com/2896275/137830984-01527118-22cd-4c1a-af1b-8504e722c9ef.png">
+<img height="500" alt="Captura de pantalla 2021-10-19 a las 3 54 02" src="https://user-images.githubusercontent.com/2896275/137830988-c83226da-5cde-4c21-9744-1dd09c576e12.png">
+
+<img height="500" alt="Captura de pantalla 2021-10-19 a las 3 51 40" src="https://user-images.githubusercontent.com/2896275/137831135-895612d8-de3c-4f6c-bfb6-d8e58f61b3e6.png">
+<img height="500" alt="Captura de pantalla 2021-10-19 a las 3 53 23" src="https://user-images.githubusercontent.com/2896275/137831137-6bddc54b-52fd-4f2c-878d-cdada4fcccd1.png">
+</p>
 
 Setting up Project
 -------
@@ -43,9 +50,10 @@ App is totally split into modules, representing each module a layer in the Clean
 * **core:** Contains public or shared files for layers in Clean Architecture (e.g: **common-ui** to be used in **FEATURE-ui**)
 
 Following images contains diagrams of interaction between layers in architecture described above:
+<p>
 <img src="https://user-images.githubusercontent.com/2896275/137827948-75759976-35ce-432d-8bf0-16fdd78a27c4.png" height="400" />
-
-![clean-architecture-interaction2](https://user-images.githubusercontent.com/2896275/137828271-72adf643-a954-44c7-afd4-abf4883abeb1.png)
+<img height="300" src="https://user-images.githubusercontent.com/2896275/137828271-72adf643-a954-44c7-afd4-abf4883abeb1.png"  />
+</p>
 
 Tests
 ====
