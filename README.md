@@ -62,6 +62,7 @@ Application includes some unit tests using [MockK library](https://mockk.io/).
 Future Tasks
 ===
 * Implement local cache for Character Details screen so it will be able to load data offline if available
+* Add EditText to Characters screen so you can filter Characters by name
 * Migrate to DaggerAndroid or DaggerHilt
 * Completing unitary testing
 
