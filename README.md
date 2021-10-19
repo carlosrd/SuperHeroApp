@@ -42,7 +42,7 @@ Dependencies are globally handled with a Gradle Plugin created for it (**plugins
 Architecture
 ====
 App is totally split into modules, representing each module a layer in the Clean Architecture. Also, code is split into:
-* **features:** Containing concrete features in the application like *Characters* modules. Othere features could be *Login*, *Comics*, etc. Each feature is split in modules repreenting private layers in Clean Architecture
+* **features:** Containing concrete features in the application like *Characters* modules. Other features could be *Login*, *Comics*, etc. Each feature is split in modules representing private layers in Clean Architecture
   * **characters-ui:** It's Character's UI or presentation layer (Android module)
   * **characters-domain:** It's business logic for Characters (Kotlin module)
   * **characters-data:** It's data provider for Characters Domain (Kotlin module)
