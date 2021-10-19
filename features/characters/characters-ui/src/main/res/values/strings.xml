@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="characters_list_title">MARVEL Characters</string>
+
+    <string name="characters_details_description">Description</string>
+    <string name="characters_details_comics">Comics</string>
+    <string name="characters_details_series">Series</string>
+    <string name="characters_details_events">Events</string>
+    <string name="characters_details_stories">Stories</string>
+
+    <string name="characters_details_no_data_title">No Data!</string>
+    <string name="characters_details_no_data_info">Sorry! There is no data available for this character.</string>
+
+    <string name="retry_btn">Retry</string>
+
+
+</resources>

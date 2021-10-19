@@ -1,0 +1,24 @@
+pluginManagement{
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        jcenter()
+    }
+
+    includeBuild("plugins")
+}
+
+rootProject.name = "SuperHeroApp"
+
+include ':app'
+include ':core:common-ui'
+include ':core:common-domain'
+include ':core:common-data'
+include ':features'
+include ':features:characters'
+include ':features:characters:characters-framework'
+include ':features:characters:characters-data'
+include ':features:characters:characters-domain'
+include ':features:characters:characters-ui'
+

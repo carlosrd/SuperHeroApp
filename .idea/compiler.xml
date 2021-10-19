@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="characters-data" target="11" />
+      <module name="characters-data-persistence" target="11" />
+      <module name="SuperHeroApp.app" target="11" />
+      <module name="SuperHeroApp.core.common-data" target="11" />
+      <module name="SuperHeroApp.core.common-ui" target="11" />
+      <module name="SuperHeroApp.features.characters.characters-data" target="11" />
+      <module name="SuperHeroApp.features.characters.characters-domain" target="11" />
+      <module name="SuperHeroApp.features.characters.characters-framework" target="11" />
+      <module name="SuperHeroApp.features.characters.characters-ui" target="11" />
+      <module name="SuperHeroApp.plugins" target="11" />
+      <module name="ui" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
