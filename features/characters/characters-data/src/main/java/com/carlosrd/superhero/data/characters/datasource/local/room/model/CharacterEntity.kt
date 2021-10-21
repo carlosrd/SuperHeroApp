@@ -6,9 +6,9 @@ import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "characters")
 data class CharacterEntity(
-    @SerializedName("marvel_id") val marvelId : Long,
+    @SerializedName("udid") @PrimaryKey val id : Long,
     @SerializedName("name") val name: String,
     @SerializedName("image_url") val imageUrl: String,
-    @SerializedName("id") @PrimaryKey(autoGenerate = true) val id : Long = 0,
+    @SerializedName("offset") val offset : Int,
 )
 

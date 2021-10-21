@@ -13,12 +13,12 @@ class SuperHeroDatabase @Inject constructor(
 {
     override fun getCharacters(offset: Int): List<CharacterModel> {
         return database.charactersDao().getCharactersPaged(offset)
-            .map { CharacterModel(it.marvelId, it.name,"", it.imageUrl)  }
+            .map { CharacterModel(it.id, it.name,"", it.imageUrl)  }
     }
 
-    override fun addCharacters(characterList: List<CharacterModel>) {
+    override fun addCharacters(characterList: List<CharacterModel>, offset: Int) {
         database.charactersDao().insertAll(characterList.map {
-            CharacterEntity(it.id, it.name, it.imageUrl)
+            CharacterEntity(it.id, it.name, it.imageUrl, offset)
         })
     }
 

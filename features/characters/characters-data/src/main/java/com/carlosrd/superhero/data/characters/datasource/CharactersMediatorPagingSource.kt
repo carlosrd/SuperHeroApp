@@ -118,7 +118,7 @@ class CharactersMediatorPagingSource @Inject constructor(
             database.updateCacheTimestamp(Calendar.getInstance().timeInMillis)
         }
 
-        database.addCharacters(charactersList)
+        database.addCharacters(charactersList, offset)
 
     }
 

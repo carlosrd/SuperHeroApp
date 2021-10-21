@@ -8,7 +8,7 @@ interface CharacterDatabase {
 
     fun getCharacters(offset:Int) : List<CharacterModel>
 
-    fun addCharacters(characterList: List<CharacterModel>)
+    fun addCharacters(characterList: List<CharacterModel>, offset: Int)
 
     fun removeCharacters()
 

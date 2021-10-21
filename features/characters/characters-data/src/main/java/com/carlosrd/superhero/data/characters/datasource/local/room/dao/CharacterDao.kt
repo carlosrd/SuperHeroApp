@@ -12,7 +12,7 @@ interface CharacterDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(users: List<CharacterEntity>)
 
-    @Query("SELECT * FROM characters WHERE id > :offset LIMIT 20")
+    @Query("SELECT * FROM characters WHERE `offset` = :offset ORDER BY name ")
     fun getCharactersPaged(offset : Int): List<CharacterEntity>
 
     @Query("DELETE FROM characters")
